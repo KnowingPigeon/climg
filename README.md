@@ -20,7 +20,7 @@ climgu files have a short, 11 byte header followed by an uninterrupted list of c
 - 0x08-0x0A: background color in hexadecimal
 - 0x0B+: undelimited list of pixels stored as 3 bytes of hexadecimal and 1 byte of alpha channel transparency
 
-Note: climgus and by extension climgs can be rendered with our without transparency. The inclusion of a dedicated background color attempts to solve a common issue found within other transparent image formats in which, upon being placed in a context where transparency is not possible, the background indiscriminatelydefaults to black, even when this harms the visibility of the image.
+Note: climgus and by extension climgs can be rendered with our without transparency. The inclusion of a dedicated background color attempts to solve a common issue found within other transparent image formats in which, upon being placed in a context where transparency is not possible, the background indiscriminately defaults to black or white, even when this harms the visibility of the image.
 
 ## TODO
 
